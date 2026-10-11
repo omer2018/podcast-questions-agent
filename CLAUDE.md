@@ -110,6 +110,7 @@ Focus:
 
 - A confrontation question uses one past quote, one fact that contradicts it, and one question, for example "ב-2021 אמרת X. ב-2025 עשיתם Y. מה השתנה?". Don't stack two quotes on one topic, don't add a permission line ("אפשר לחלוק עליך?") in front of it, and don't follow up with a summary that puts words in the guest's mouth ("אז מה שאתה אומר זה ש...").
 - Each main question explores one idea. Follow-ups dig deeper into that same idea and never open a new one.
+- Every question has one clear thing to answer. Avoid vague "what did you see" or "what did you feel when you walked in" prompts that only hint at an intended answer. Ask the concrete thing directly ("מה סיפרת להם?").
 - Ask what the guest knows from his own work, not for speculation. Avoid sensational "how close are we to disaster" questions that he can only answer with a guess ("כמה קרובים אנחנו לבית חולים מושבת?"). Ask something concrete that his experience lets him answer ("איזו מערכת בישראל הכי חשופה היום?").
 - A follow-up says explicitly what it refers to ("גם בחמישה מיליון האלה"). The interviewer should never have to guess which event, number or quote it points back to.
 
