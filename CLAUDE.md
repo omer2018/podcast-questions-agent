@@ -14,9 +14,9 @@ All deliverable files are in Hebrew, because the podcast is in Hebrew. CLAUDE.md
 
 - `01-interviewers-and-principles.md`: a static reference work about five interviewers (Bartlett, Neel, Stebbings, the Acquired hosts, Rhysider) and their interview principles. It never mentions our podcast, our team, our episodes or a specific guest; examples are generic. Each interviewer gets a short prose profile of who he is and what he does. The profile's first paragraph ends with one plain sentence, with no label, on the idea that guides his show, taken from his own words or a sourced description. After the profile comes a numbered list of principles with no links, then the heading "### יישום העקרונות" followed by a numbered list in which item N demonstrates principle N with a real YouTube Short, quoting what is said in it. The principles list has no heading of its own. The file closes with general sections on preparation and on the studio.
 - `<guest-slug>/02-<guest-slug>-guest-data.md`: static facts about the guest, written entirely as short, specific bullet points with dates and numbers and no prose paragraphs. Sections: basics, childhood, military and education, career, the companies in numbers (one section per company), "ציטוטים מהעבר", comparison with another CEO, pop culture or media about the guest (a satire character, a book, a series), previous interviews, sources. "ציטוטים מהעבר" holds exactly the 10 most interesting and relevant quotes from the guest, one per item, each followed by its source and date.
-- `<guest-slug>/03-<guest-slug>-questions.md`: bullet points of questions only, grouped by act, with follow-ups nested under them. After the questions comes the pre-show checklist for that guest.
+- `<guest-slug>/03-<guest-slug>-questions.md`: bullet points of questions only, grouped by act, with follow-ups nested under them. No title line, no stage directions, no interviewer notes, no backup section and no checklist. The file is only what the interviewer asks out loud.
 
-Each guest has his own folder (`nadir-izrael/`, `raanan-cohen/`) holding his 02 and 03 files. 01 and 04 stay at the root because they apply to every guest. A new guest gets a new folder with the same two files, the same sections, the same act structure and the same checklist format. Sections that only fit one guest change to fit the new guest's story: the cyber and AI act becomes the guest's own field ("יזמות, AI ועתיד" for a non-cyber founder), and the pop-culture section becomes whatever exists about him, such as a book or a TV series.
+Each guest has his own folder (`nadir-izrael/`, `raanan-cohen/`) holding his 02 and 03 files. 01 and 04 stay at the root because they apply to every guest. A new guest gets a new folder with the same two files, the same sections, and the same act structure. Sections that only fit one guest change to fit the new guest's story: the cyber and AI act becomes the guest's own field ("יזמות, AI ועתיד" for a non-cyber founder), and the pop-culture section becomes whatever exists about him, such as a book or a TV series.
 - `04-editing-principles.md`: editing principles in the same format as 01: a principles list, then "### יישום העקרונות" and the demonstrations. Covers short clips, titles, the full episode and trailer, thumbnails and distribution.
 
 ## Evidence and links
@@ -79,8 +79,9 @@ These are the most common tells of AI-written text, compiled from Wikipedia's "S
 
 Structure:
 
-- The file holds only bullet points of questions, grouped by act, with follow-ups nested under the main question. Nothing else comes before the checklist.
-- The order follows the DOAC arc: an opening hook, childhood, the road, the peak and what it cost, cyber and AI, Israel, a speed round, and the closing ritual (the guest answers a question left by the previous guest and writes one for the next).
+- The file holds only bullet points of questions, grouped by act, with follow-ups nested under the main question. Nothing else goes in the file.
+- Acts, in order: פתיח, ילדות, הדרך, הפסגה והמחיר, the guest's field and the future (for example "סייבר, AI והעתיד" or "יזמות, AI והעתיד"), ישראל, סבב מהיר, סגירה. Section names are plain words, without wordplay ("ילדות", not "הילד מקריית אתא"). The field and Israel acts are short: two to four questions each.
+- Bold exactly one question in the whole file: the central question of the episode.
 - One question per line. Never a double question ("שאלה כפולה"), meaning two questions in one sentence, such as "What did you learn at Google, and how did it shape Armis?". The guest answers one half and the answer can't be clipped. Ask the main question, then each follow-up separately. Whenever a file mentions a double question, explain what it is.
 
 Length:
@@ -104,23 +105,12 @@ Facts:
 
 Standing on its own:
 
-- The file must make sense to someone who hasn't read any other file. The questions stay short, and the stage directions carry the detail.
-- Stage directions are only for actions that need setup: showing a clip, bringing out a prop, the closing ritual. Never add interviewing-technique cues such as silences, pauses or "reflect back", in any form ("(שתיקה)", "(שותקים חמש שניות...)"). Technique belongs in the principles file, not in the questions. Stage directions go in parentheses and spell out exactly what to do. For a clip: which show, channel, year and character, what happens in it, how long it runs, what to film, the rights needed, and the fallback. For a prop: what it is, where it comes from, and when to bring it out.
-- When a question rests on a fact the interviewers might find confusing or think is wrong, put a note for the interviewer before it: "(הסבר למראיין: ...)". This covers things like a company sold twice, a co-founder being the one who said something, or a figure that contradicts common knowledge. The note says what happened, with dates and figures, and which event the question is about. The interviewer reads it; it is not said out loud.
-
-Focus:
-
-- A confrontation question uses one past quote, one fact that contradicts it, and one question, for example "ב-2021 אמרת X. ב-2025 עשיתם Y. מה השתנה?". Don't stack two quotes on one topic, don't add a permission line ("אפשר לחלוק עליך?") in front of it, and don't follow up with a summary that puts words in the guest's mouth ("אז מה שאתה אומר זה ש...").
-- Each main question explores one idea. Follow-ups dig deeper into that same idea and never open a new one.
-- Every question has one clear thing to answer. Avoid vague "what did you see" or "what did you feel when you walked in" prompts that only hint at an intended answer. Ask the concrete thing directly ("מה סיפרת להם?").
-- Ask what the guest knows from his own work, not for speculation. Avoid sensational "how close are we to disaster" questions that he can only answer with a guess ("כמה קרובים אנחנו לבית חולים מושבת?"). Ask something concrete that his experience lets him answer ("איזו מערכת בישראל הכי חשופה היום?").
-- A follow-up says explicitly what it refers to ("גם בחמישה מיליון האלה"). The interviewer should never have to guess which event, number or quote it points back to.
+- The file must make sense to someone who hasn't read any other file. Every question carries its own context: dates, figures and names inside the question itself.
+- No stage directions, props, clips or interviewer notes in the questions file. If a question needs background to be understood, put that background into the question in one short sentence, or drop the question.
 
 Closing section:
 
-- At most four lines: a legacy question, the emotional question (here, the letter to his mother), the previous guest's question, and the question he leaves for the next guest.
-- The legacy question is concrete and personal ("מה אתה רוצה שיגידו עליך בעוד עשרים שנה?"). Avoid grandiose prompts like "מה המסר שלך לעולם?", which get platitudes.
-- The ritual stage direction is one short sentence and covers the case where there is no previous guest. The question for the next guest is a plain question on its own line.
+- Three questions: a general question on how the guest's achievement changed the way he looks at life (phrased generally, without the sale price or company name), "אם זה הראיון האחרון שלך, מה המסר שלך לעולם?", and "מה אתה רוצה שיגידו עליך בעוד עשרים שנה?".
 
 Respect:
 
@@ -130,14 +120,6 @@ Techniques:
 
 - Use the techniques from 01: an opener with a number; warm questions before hard ones; "take me to that moment" (Rhysider); a best-ever question followed by "how much?" about company figures (Stebbings); closed and agree/disagree questions (Neel); a past quote set against what happened later (Bartlett); comparing him with another CEO (Stebbings); a prediction with a year (Bartlett); "explain it to my mom"; "say that in one sentence"; a game (Neel); a legacy question.
 - Before writing, listen to and read the guest's previous interviews in Hebrew and English. Skip questions he has already answered and go further than those interviews did.
-
-## Pre-show checklist (end of 03)
-
-The checklist lists only the sensitive topics we have to clear with the guest before recording, phrased as what we ask him ("האם מותר לשאול על...?"). Rules:
-
-- Unnumbered bullet points, no more than 10.
-- Only topics that one of the questions actually touches, such as family, military service (military censorship), the co-founder relationship, deal details, the acquirer as a public company, specific attacks or state actors, satire about the guest, or living abroad. Pick the 10 that matter most for this guest.
-- Nothing else goes in the checklist: no format explanations, answer guidelines, legal or PR items, fact-checks, props, logistics or distribution. It never mentions other podcasts or how we position our show.
 
 ## Guests
 
