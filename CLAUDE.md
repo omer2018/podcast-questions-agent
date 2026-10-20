@@ -2,7 +2,7 @@
 
 ## What this project is
 
-We are building "the Hebrew Diary of a CEO", a Hebrew video podcast of about an hour per episode that interviews Israeli cybersecurity CEOs and founders. It is recorded at the RHEL Guts Innovation Hub. We want the views and viral short clips that The Diary of a CEO (Steven Bartlett) and the Jack Neel Podcast get.
+We are building "the Hebrew Diary of a CEO", a Hebrew video podcast of about an hour per episode that interviews Israeli tech founders and CEOs, many of them from cybersecurity. It is recorded at the RHEL Guts Innovation Hub. We want the views and viral short clips that The Diary of a CEO (Steven Bartlett) and the Jack Neel Podcast get.
 
 This repo holds the research, the principles and the per-guest prep that the production team and the host use before each recording. There is no code here.
 
@@ -12,9 +12,11 @@ All deliverable files are in Hebrew, because the podcast is in Hebrew. CLAUDE.md
 
 ## Files
 
-- `01-interviewers-and-principles.md`: a static reference work about five interviewers (Bartlett, Neel, Stebbings, the Acquired hosts, Rhysider) and their interview principles. It never mentions our podcast, our team, our episodes or a specific guest; examples are generic. Each interviewer gets a short prose profile of who he is and what he does, then a numbered list of principles with no links, then the heading "### יישום העקרונות" followed by a numbered list in which item N demonstrates principle N with a real YouTube Short, quoting what is said in it. The principles list has no heading of its own. The file closes with general sections on preparation and on the studio.
-- `02-<guest>-guest-data.md`: static facts about the guest, written entirely as short, specific bullet points with dates and numbers and no prose paragraphs. Sections: basics, childhood, military and education, career, the company in numbers, "ציטוטים מהעבר", comparison with another CEO, pop culture, previous interviews, sources. "ציטוטים מהעבר" holds exactly the 10 most interesting and relevant quotes from the guest, one per item, each followed by its source and date. Current file: `02-nadir-izrael-guest-data.md`.
-- `03-<guest>-questions.md`: bullet points of questions only, grouped by act, with follow-ups nested under them. After the questions comes the pre-show checklist for that guest. Current file: `03-nadir-izrael-questions.md`.
+- `01-interviewers-and-principles.md`: a static reference work about five interviewers (Bartlett, Neel, Stebbings, the Acquired hosts, Rhysider) and their interview principles. It never mentions our podcast, our team, our episodes or a specific guest; examples are generic. Each interviewer gets a short prose profile of who he is and what he does. The profile's first paragraph ends with one plain sentence, with no label, on the idea that guides his show, taken from his own words or a sourced description. After the profile comes a numbered list of principles with no links, then the heading "### יישום העקרונות" followed by a numbered list in which item N demonstrates principle N with a real YouTube Short, quoting what is said in it. The principles list has no heading of its own. The file closes with general sections on preparation and on the studio.
+- `<guest-slug>/02-<guest-slug>-guest-data.md`: static facts about the guest, written entirely as short, specific bullet points with dates and numbers and no prose paragraphs. Sections: basics, childhood, military and education, career, the companies in numbers (one section per company), "ציטוטים מהעבר", comparison with another CEO, pop culture or media about the guest (a satire character, a book, a series), previous interviews, sources. "ציטוטים מהעבר" holds exactly the 10 most interesting and relevant quotes from the guest, one per item, each followed by its source and date.
+- `<guest-slug>/03-<guest-slug>-questions.md`: bullet points of questions only, grouped by act, with follow-ups nested under them. After the questions comes the pre-show checklist for that guest.
+
+Each guest has his own folder (`nadir-izrael/`, `raanan-cohen/`) holding his 02 and 03 files. 01 and 04 stay at the root because they apply to every guest. A new guest gets a new folder with the same two files, the same sections, the same act structure and the same checklist format. Sections that only fit one guest change to fit the new guest's story: the cyber and AI act becomes the guest's own field ("יזמות, AI ועתיד" for a non-cyber founder), and the pop-culture section becomes whatever exists about him, such as a book or a TV series.
 - `04-editing-principles.md`: editing principles in the same format as 01: a principles list, then "### יישום העקרונות" and the demonstrations. Covers short clips, titles, the full episode and trailer, thumbnails and distribution.
 
 ## Evidence and links
@@ -137,6 +139,7 @@ The checklist lists only the sensitive topics we have to clear with the guest be
 - Only topics that one of the questions actually touches, such as family, military service (military censorship), the co-founder relationship, deal details, the acquirer as a public company, specific attacks or state actors, satire about the guest, or living abroad. Pick the 10 that matter most for this guest.
 - Nothing else goes in the checklist: no format explanations, answer guidelines, legal or PR items, fact-checks, props, logistics or distribution. It never mentions other podcasts or how we position our show.
 
-## Current guest
+## Guests
 
-Nadir Izrael (נדיר יזרעאל), co-founder and CTO of Armis. ServiceNow bought Armis for $7.75B; the deal was signed in December 2025 and closed in April 2026. He grew up in Kiryat Ata. His mother was disabled in a car accident before he was born. He went to a yeshiva high school, served in Unit 8200, studied at the Technion and worked at Google. The Eretz Nehederet character "Nadir Ackerman" is named after him. See `02-nadir-izrael-guest-data.md` and `03-nadir-izrael-questions.md`.
+- `nadir-izrael/`: Nadir Izrael (נדיר יזרעאל), co-founder and CTO of Armis. ServiceNow bought Armis for $7.75B; the deal was signed in December 2025 and closed in April 2026. He grew up in Kiryat Ata, went to a yeshiva high school, served in Unit 8200, studied at the Technion and worked at Google. The Eretz Nehederet character "Nadir Ackerman" is named after him.
+- `raanan-cohen/`: Ra'anan Cohen (רענן כהן), "Unicorn & IPO Founder". He founded MobileMax (IPO on the Tel Aviv Stock Exchange in June 2007, collapsed after 2008) and co-founded Bringg (CEO 2013 to July 2018; $1B valuation in June 2021). He wrote the novel "רק עוד קצת ודי", which is being adapted for TV, and runs ultramarathons. He is a different person from Ra'anan Cohen the former Labor minister; don't mix their press coverage.
