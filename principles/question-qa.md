@@ -114,6 +114,7 @@ Payoff
 59. Check that the question says what it is really asking. If the interesting part lives only in our heads (here: the series is his own life, played by an actor), put that link into the question.
 60. Ask the question the topic deserves. For each topic, ask what the guest cares about most there (for a book or series: why he made it and what he wants people to take from it) before reaching for a novelty angle.
 61. Every quote needs its referent. If a quoted phrase ("הבלוף", "יש הטוענים") only makes sense with the original interview in mind, add a few words saying what it was about.
+62. Watch for English calques. "איך נראה X" (what did X look like), "קח אותי ל" (take me to), "מה עובר לך" in the wrong tense: say "איך היה", "איך עבר עליך", "ספר לי על".
 
 ## Part 3: edits from this project
 
@@ -654,4 +655,12 @@ Each entry gives the question before and after the edit, and why. "Deleted" mean
 133. Before: אמרת שתמיד הרגשת ש"עוד שנייה הבלוף הולך להתפוצץ". מתי זה היה הכי קרוב?
      After: הגעת לתפקיד מנכ"ל בלי רקע טכנולוגי, ואמרת שהרגשת ש"עוד שנייה הבלוף הולך להתפוצץ" ויגלו שאתה לא יודע מה אתה עושה. מתי זה היה הכי קרוב?
      Why: A quote that only makes sense to someone who heard the original interview. A viewer doesn't know what "the bluff" was. Say what it refers to (a CEO with no tech background who felt like an impostor), in the guest's own terms.
+
+134. Before: איך נראה אצלך היום שאחרי הגיוס הראשון של Bringg?
+     After: איך היה היום שאחרי הגיוס הראשון של Bringg?
+     Why: "איך נראה אצלך" is a calque of "what did it look like for you" and isn't correct spoken Hebrew. Say "איך היה".
+
+135. Before: איך נראה החודש הראשון בלי החברה?
+     After: איך עבר עליך החודש הראשון בלי החברה?
+     Why: The same English calque ("what did the first month look like"). "איך עבר עליך" is how people say it.
 
