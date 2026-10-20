@@ -12,16 +12,19 @@ All deliverable files are in Hebrew, because the podcast is in Hebrew. CLAUDE.md
 
 ## Files
 
-- `01-interviewers-and-principles.md`: a static reference work about five interviewers (Bartlett, Neel, Stebbings, the Acquired hosts, Rhysider) and their interview principles. It never mentions our podcast, our team, our episodes or a specific guest; examples are generic. Each interviewer gets a short prose profile of who he is and what he does. The profile's first paragraph ends with one plain sentence, with no label, on the idea that guides his show, taken from his own words or a sourced description. After the profile comes a numbered list of principles with no links, then the heading "### יישום העקרונות" followed by a numbered list in which item N demonstrates principle N with a real YouTube Short, quoting what is said in it. The principles list has no heading of its own. The file closes with general sections on preparation and on the studio.
-- `<guest-slug>/02-<guest-slug>-guest-data.md`: static facts about the guest, written entirely as short, specific bullet points with dates and numbers and no prose paragraphs. Sections: basics, childhood, military and education, career, the companies in numbers (one section per company), "ציטוטים מהעבר", comparison with another CEO, pop culture or media about the guest (a satire character, a book, a series), previous interviews, sources. "ציטוטים מהעבר" holds exactly the 10 most interesting and relevant quotes from the guest, one per item, each followed by its source and date.
-- `<guest-slug>/03-<guest-slug>-questions.md`: bullet points of questions only, grouped by act, with follow-ups nested under them. No title line, no stage directions, no interviewer notes, no backup section and no checklist. The file is only what the interviewer asks out loud.
+File names carry no numbers.
 
-Each guest has his own folder (`nadir-izrael/`, `raanan-cohen/`) holding his 02 and 03 files. 01 and 04 stay at the root because they apply to every guest. A new guest gets a new folder with the same two files, the same sections, and the same act structure. Sections that only fit one guest change to fit the new guest's story: the cyber and AI act becomes the guest's own field ("יזמות, AI ועתיד" for a non-cyber founder), and the pop-culture section becomes whatever exists about him, such as a book or a TV series.
-- `04-editing-principles.md`: editing principles in the same format as 01: a principles list, then "### יישום העקרונות" and the demonstrations. Covers short clips, titles, the full episode and trailer, thumbnails and distribution.
+- `AI-WRITING-DONTS.md`: the 30 things that make text read as AI-generated. Read it before writing or editing any file, and check every file against it before handing it over.
+- `principles/interviewers-and-principles.md`: a static reference work about five interviewers (Bartlett, Neel, Stebbings, the Acquired hosts, Rhysider) and their interview principles. It never mentions our podcast, our team, our episodes or a specific guest; examples are generic. Each interviewer gets a short prose profile of who he is and what he does. The profile's first paragraph ends with one plain sentence, with no label, on the idea that guides his show, taken from his own words or a sourced description. After the profile comes a numbered list of principles with no links, then the heading "### יישום העקרונות" followed by a numbered list in which item N demonstrates principle N with a real YouTube Short, quoting what is said in it. The principles list has no heading of its own. The file closes with general sections on preparation and on the studio.
+- `principles/editing-principles.md`: editing principles in the same format: a principles list, then "### יישום העקרונות" and the demonstrations. Covers short clips, titles, the full episode and trailer, thumbnails and distribution.
+- `<guest-slug>/<guest-slug>-guest-data.md`: static facts about the guest, written entirely as short, specific bullet points with dates and numbers and no prose paragraphs. Typical sections: basics, childhood, before tech or military, one section per company, after the company, media about him (a satire character, a book, a series), "ציטוטים מהעבר", comparison with another CEO, previous interviews, sources. "ציטוטים מהעבר" holds exactly the 10 most interesting and relevant quotes from the guest, one per item, each followed by its source and date.
+- `<guest-slug>/<guest-slug>-questions.md`: bullet points of questions only, grouped by section, with follow-ups nested under them. No title line, no stage directions, no interviewer notes, no backup section and no checklist. The file is only what the interviewer asks out loud.
+
+Each guest has his own folder (`nadir-izrael/`, `raanan-cohen/`) holding his guest-data and questions files. The principles files live in `principles/` because they apply to every guest.
 
 ## Evidence and links
 
-Every principle in 01 and 04 needs a demonstration. Use a real YouTube Short (never TikTok) from one of the five model podcasts, and say exactly what happens in it, preferably quoting the host's question or the clip's first line. When no Short can show the principle (silence, research habits, thumbnail tests), cite the article it comes from instead. Use verified URLs only.
+Every principle in the two principles files needs a demonstration. Use a real YouTube Short (never TikTok) from one of the five model podcasts, and say exactly what happens in it, preferably quoting the host's question or the clip's first line. When no Short can show the principle (silence, research habits, thumbnail tests), cite the article it comes from instead. Use verified URLs only.
 
 Real Shorts with view counts come from a channel's YouTube RSS feed. Popular Shorts: `https://www.youtube.com/feeds/videos.xml?playlist_id=UUPS<channel id without "UC">`. Latest uploads: `?channel_id=<id>`. Channel IDs:
 
@@ -51,36 +54,14 @@ Write short. A principle is a general rule that says what to do and when. Princi
 
 ## Writing that does not read as AI-generated
 
-These are the most common tells of AI-written text, compiled from Wikipedia's "Signs of AI writing" guide and Pangram's frequency data. None of them should appear in any file in this repo, Hebrew or English.
+Follow `AI-WRITING-DONTS.md` in every file, Hebrew or English. When a file breaks one of its rules, fix it, and add any new tell the user points out to that file.
 
-1. Stock AI vocabulary. English: delve, crucial, pivotal, tapestry, testament, showcase, landscape, robust, seamless, leverage, navigate. Hebrew: "חשוב לציין", "בעולם של היום", "מסע", "מרתק", "פורץ דרך", "מגוון רחב", "שלל", "מהווה".
-2. Inflated significance: calling things a "turning point", "a testament to" something, or saying they "set the stage" or "leave a legacy".
-3. Promotional tone: "vibrant", "rich", "boasts", "nestled", "world-class", "unique", and their Hebrew equivalents.
-4. Tacked-on analysis clauses: "..., highlighting X", "..., reflecting Y", or in Hebrew "..., מה שמדגיש/ממחיש".
-5. Negative parallelism: "not X but Y", "it's not just X, it's Y", "X rather than Y". In Hebrew, "לא X אלא Y". State the positive claim directly.
-6. Triads: packing items, adjectives or examples into threes by habit. Use the number of items the content actually has.
-7. Em dashes, or spaced en dashes used the same way. Use a comma, a colon, parentheses or a new sentence.
-8. Avoiding plain "is": "serves as", "functions as", "stands as". In Hebrew, "מהווה". Write "is", or "הוא/היא".
-9. Vague attribution: "experts say", "studies show", "many believe". Name the source or drop the claim.
-10. Stacked hedges and disclaimers: "it's worth noting", "generally speaking", "while details are limited".
-11. Formulaic wrap-ups: "In conclusion", "Overall", "Bottom line", or a closing summary that repeats the content.
-12. Chatbot phrasing: "Certainly!", "Great question", "I hope this helps", "Let me know if...".
-13. Too much bold. Bold almost nothing.
-14. Inline-header lists, where every bullet starts with a bold label and a colon. Write the sentence instead.
-15. Emoji used as formatting (✅ 🚀 🔥 ▶️ 📄 ⚠️ 🟢 and so on).
-16. Unusual Unicode: arrows (→ ← ↳), ≈, ⚠, box-drawing characters, decorative bullets such as "·".
-17. Lists and tables where prose works better, such as a table for two or three facts or bullets that should be one sentence.
-18. Meta structure: intros like "This document explains...", a heading over every few lines, Title Case headings.
-19. Uniform rhythm and synonym cycling: every sentence the same length, or a new synonym each time for the same thing. Vary sentence length and reuse the same word.
-20. Templated parallel sections: every section ending with the same formula, such as "we learn X from him because Y" followed by "we don't take Z because W". Leave out the closing line rather than repeat a formula.
-21. Unverifiable content: invented or broken links, placeholders (XX, "INSERT"), or claims that can't be traced to a source.
-
-## Question-writing rules (03)
+## Question-writing rules (questions files)
 
 Structure:
 
 - The file holds only bullet points of questions, grouped by act, with follow-ups nested under the main question. Nothing else goes in the file.
-- Acts, in order: פתיח, ילדות, הדרך, הפסגה והמחיר, the guest's field and the future (for example "סייבר, AI והעתיד" or "יזמות, AI והעתיד"), ישראל, סבב מהיר, סגירה. Section names are plain words, without wordplay ("ילדות", not "הילד מקריית אתא"). The field and Israel acts are short: two to four questions each.
+- Sections follow the guest's life in order: an opening, childhood, how he got into tech, each company, the turning point (an exit, a sale or a departure), what he does now (his field, a book, a sport), Israel, a speed round, and the closing. Name each section after the actual period or event in plain words: "ילדות", "החברה הראשונה", "העזיבה", "הספר". Never use abstract "X ו-Y" titles such as "הפסגה והמחיר" or wordplay such as "הילד מקריית אתא". The Israel section and the section on his field are short: two to four questions each.
 - Bold exactly one question in the whole file: the central question of the episode.
 - One question per line. Never a double question ("שאלה כפולה"), meaning two questions in one sentence, such as "What did you learn at Google, and how did it shape Armis?". The guest answers one half and the answer can't be clipped. Ask the main question, then each follow-up separately. Whenever a file mentions a double question, explain what it is.
 
@@ -118,7 +99,7 @@ Respect:
 
 Techniques:
 
-- Use the techniques from 01: an opener with a number; warm questions before hard ones; "take me to that moment" (Rhysider); a best-ever question followed by "how much?" about company figures (Stebbings); closed and agree/disagree questions (Neel); a past quote set against what happened later (Bartlett); comparing him with another CEO (Stebbings); a prediction with a year (Bartlett); "explain it to my mom"; "say that in one sentence"; a game (Neel); a legacy question.
+- Use the techniques from the interviewer principles: an opener with a number; warm questions before hard ones; "take me to that moment" (Rhysider); a best-ever question followed by "how much?" about company figures (Stebbings); closed and agree/disagree questions (Neel); a past quote set against what happened later (Bartlett); comparing him with another CEO (Stebbings); a prediction with a year (Bartlett); "explain it to my mom"; "say that in one sentence"; a game (Neel); a legacy question.
 - Before writing, listen to and read the guest's previous interviews in Hebrew and English. Skip questions he has already answered and go further than those interviews did.
 
 ## Guests
