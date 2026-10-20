@@ -5,7 +5,7 @@ Every file in this repo, Hebrew or English, avoids all thirty. Each item gives t
 ## Headings and structure
 
 1. Abstract "X and Y" headings. Two abstract nouns joined by "and" sound like a book chapter: "הפסגה והמחיר", "Legacy and impact", "Challenges and opportunities". Name the actual period or event instead: "העזיבה של Bringg", "החברה הראשונה".
-2. Clever or poetic headings. Wordplay, alliteration or a mini-headline where a plain label works: "הילד מקריית אתא", "From zero to unicorn". Use the plain word: "ילדות".
+2. Clever, poetic or literary phrasing, in headings and in questions. Wordplay or a mini-headline where a plain label works ("הילד מקריית אתא"; use "ילדות"). Rhetorical twists such as "איך פיצה מאחרת הופכת לחברה?". Written-register phrases nobody says out loud, such as "נולד מ", "בלי שאיש ידע", or translated English like "קח אותי לרגע". Write the way an Israeli speaks in a studio: "את הרעיון קיבלת כש...", "ספר לי על הבוקר הזה".
 3. A heading over every few lines. Short sections that each get a title, or headings that sit over a single paragraph. Merge them and keep headings for real sections.
 4. Meta intros and outros. Lines about the document itself: "This document explains...", "המסמך הזה מפרט", "למי: צוות ההפקה". Start with the content and end when it ends.
 5. Formulaic wrap-ups. "In conclusion", "Overall", "Bottom line", "לסיכום", or a last paragraph that repeats what came before. Stop after the last real point.
