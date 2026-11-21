@@ -115,6 +115,8 @@ Payoff
 60. Ask the question the topic deserves. For each topic, ask what the guest cares about most there (for a book or series: why he made it and what he wants people to take from it) before reaching for a novelty angle.
 61. Every quote needs its referent. If a quoted phrase ("הבלוף", "יש הטוענים") only makes sense with the original interview in mind, add a few words saying what it was about.
 62. Watch for English calques. "איך נראה X" (what did X look like), "קח אותי ל" (take me to), "מה עובר לך" in the wrong tense: say "איך היה", "איך עבר עליך", "ספר לי על".
+63. Use the spoken conditional. "אילו" plus past tense ("אילו הלכת") is literary; write "אם היית" plus a verb ("אם היית הולך").
+64. Prefer the real decision to the hypothetical. "What would have happened if..." gets a guess; "how did you decide to..." gets a story he lived.
 
 ## Part 3: edits from this project
 
@@ -663,4 +665,12 @@ Each entry gives the question before and after the edit, and why. "Deleted" mean
 135. Before: איך נראה החודש הראשון בלי החברה?
      After: איך עבר עליך החודש הראשון בלי החברה?
      Why: The same English calque ("what did the first month look like"). "איך עבר עליך" is how people say it.
+
+136. Before: מה היה קורה אילו הלכת להתמחות בראיית חשבון?
+     After: מה היה קורה אם היית הולך להתמחות בראיית חשבון?
+     Why: "אילו הלכת" is written, literary Hebrew. In speech the conditional is "אם היית הולך".
+
+137. Before: מה היה קורה אם היית הולך להתמחות בראיית חשבון?
+     After: איך החלטת לוותר על ההתמחות בראיית חשבון שבוע לפני שהתחלת?
+     Why: Too theoretical. A "what if" asks him to imagine a life he never lived, and the answer is a guess. Ask about the real decision he made, which he can tell as a story.
 
